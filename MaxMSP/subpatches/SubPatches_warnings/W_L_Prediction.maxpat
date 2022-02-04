@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 647.0, -971.0, 1367.0, 650.0 ],
+		"rect" : [ 48.0, 302.0, 1367.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,8 +54,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 801.0, 296.0, 189.0, 22.0 ],
-					"text" : "Prediction L ID nummer $1 case 7"
+					"patching_rect" : [ 694.0, 285.0, 313.0, 22.0 ],
+					"text" : "Willkommen: Ei die $1 darf das Spielfeld wieder betreten."
 				}
 
 			}
@@ -76,8 +76,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.5, 269.5, 189.0, 22.0 ],
-					"text" : "Prediction L ID nummer $1 case 6"
+					"patching_rect" : [ 551.5, 258.5, 221.0, 22.0 ],
+					"text" : "Kritisch: Ei die $1 hat das Off verlassen."
 				}
 
 			}
@@ -98,8 +98,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 562.5, 234.5, 189.0, 22.0 ],
-					"text" : "Prediction L ID nummer $1 case 5"
+					"patching_rect" : [ 455.5, 223.5, 367.0, 22.0 ],
+					"text" : "Ei die $1 gefährtet die Simulation und muss das Spielfeld verlassen"
 				}
 
 			}
@@ -120,8 +120,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.5, 205.0, 189.0, 22.0 ],
-					"text" : "Prediction L ID nummer $1 case 4"
+					"patching_rect" : [ 325.5, 194.0, 352.0, 22.0 ],
+					"text" : "Willkommen: Ei die $1 darf wieder an der Simulation teilnehmen."
 				}
 
 			}
@@ -142,8 +142,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.5, 173.0, 189.0, 22.0 ],
-					"text" : "Prediction L ID nummer $1 case 3"
+					"patching_rect" : [ 179.5, 162.0, 233.0, 22.0 ],
+					"text" : "Kritisch: Ei die $1 hat den Kreis verlassen."
 				}
 
 			}
@@ -164,8 +164,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 143.0, 131.0, 189.0, 22.0 ],
-					"text" : "Prediction L ID nummer $1 case 2"
+					"patching_rect" : [ 36.0, 120.0, 790.0, 22.0 ],
+					"text" : "Achtung Ei die $1 hat alle Punkte verloren. Bleiben Sie für eine Minute stehen. beobachten Sie wie Sie Ihrer Vorbestimmung besser folgen können."
 				}
 
 			}
@@ -186,8 +186,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 100.0, 189.0, 22.0 ],
-					"text" : "Prediction L ID nummer $1 case 1"
+					"patching_rect" : [ 873.0, 322.0, 335.0, 22.0 ],
+					"text" : "Willkommen: Alle Ei dies sollen das Spielfeld wieder betreten."
 				}
 
 			}
@@ -195,12 +195,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-131",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 869.0, 29.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -208,12 +208,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-133",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 147.0, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 40.0, 29.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -221,12 +221,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-134",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 281.5, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 174.5, 29.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -234,12 +234,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-135",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.5, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 325.5, 29.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -247,12 +247,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-136",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 562.5, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 455.5, 29.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -260,12 +260,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-138",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 662.5, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 555.5, 29.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -273,12 +273,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-139",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 801.0, 40.0, 30.0, 30.0 ]
+					"patching_rect" : [ 694.0, 29.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -286,7 +286,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-140",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -393,7 +393,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

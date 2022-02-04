@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 845.0, -1071.0, 738.0, 531.0 ],
+		"rect" : [ 652.0, -1091.0, 738.0, 531.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -208,8 +208,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 205.0, 29.5, 22.0 ],
-					"text" : "E"
+					"patching_rect" : [ 287.0, 205.0, 35.0, 22.0 ],
+					"text" : "reset"
 				}
 
 			}
@@ -231,8 +231,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 142.0, 427.0, 35.0 ],
-					"text" : "haben sich kollektiv organisiert und regelkonform verhalten, daher endet diese Simulation frühzeitig."
+					"patching_rect" : [ 287.0, 143.0, 446.0, 35.0 ],
+					"text" : "haben sich kollektiv organisiert und sich den Regeln widersetzt, daher endet diese Simulation frühzeitig."
 				}
 
 			}
@@ -267,7 +267,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 209.0, 281.0, 58.0, 22.0 ],
+					"patching_rect" : [ 209.0, 365.0, 58.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"shell" : "(default)"
 					}
@@ -294,7 +294,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 331.0, 281.0, 29.5, 22.0 ],
-					"text" : "I"
+					"text" : "i"
 				}
 
 			}

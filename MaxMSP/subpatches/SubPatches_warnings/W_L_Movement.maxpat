@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 647.0, -971.0, 1198.0, 503.0 ],
+		"rect" : [ 128.0, 322.0, 1198.0, 503.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 948.0, 179.0, 100.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
 					"bgcolor2" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
@@ -54,8 +65,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 801.0, 296.0, 165.0, 22.0 ],
-					"text" : "Move L ID nummer $1 case 7"
+					"patching_rect" : [ 801.0, 296.0, 337.0, 22.0 ],
+					"text" : "Willkommen: Alle Ei Dies sollen das Spielfeld wieder betreten."
 				}
 
 			}
@@ -76,8 +87,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.5, 269.5, 165.0, 22.0 ],
-					"text" : "Move L ID nummer $1 case 6"
+					"patching_rect" : [ 658.5, 269.5, 313.0, 22.0 ],
+					"text" : "Willkommen: Ei die $1 darf das Spielfeld wieder betreten."
 				}
 
 			}
@@ -98,8 +109,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 562.5, 234.5, 165.0, 22.0 ],
-					"text" : "Move L ID nummer $1 case 5"
+					"patching_rect" : [ 562.5, 234.5, 221.0, 22.0 ],
+					"text" : "Kritisch: Ei die $1 hat das Off verlassen."
 				}
 
 			}
@@ -120,8 +131,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.5, 205.0, 165.0, 22.0 ],
-					"text" : "Move L ID nummer $1 case 4"
+					"patching_rect" : [ 432.5, 205.0, 367.0, 22.0 ],
+					"text" : "Ei die $1 gefährtet die Simulation und muss das Spielfeld verlassen"
 				}
 
 			}
@@ -142,8 +153,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.5, 173.0, 165.0, 22.0 ],
-					"text" : "Move L ID nummer $1 case 3"
+					"patching_rect" : [ 286.5, 173.0, 352.0, 22.0 ],
+					"text" : "Willkommen: Ei die $1 darf wieder an der Simulation teilnehmen."
 				}
 
 			}
@@ -164,8 +175,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 143.0, 131.0, 165.0, 22.0 ],
-					"text" : "Move L ID nummer $1 case 2"
+					"patching_rect" : [ 143.0, 131.0, 233.0, 22.0 ],
+					"text" : "Kritisch: Ei die $1 hat den Kreis verlassen."
 				}
 
 			}
@@ -186,8 +197,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 100.0, 165.0, 22.0 ],
-					"text" : "Move L ID nummer $1 case 1"
+					"patching_rect" : [ 50.0, 100.0, 776.0, 22.0 ],
+					"text" : "Achtung: Ei die $1 hat alle Punkte verloren. Bleiben Sie für eine Minute stehen, beobachten Sie wie Sie ihre Geschwindigkeit optimieren können."
 				}
 
 			}
@@ -195,7 +206,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-131",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -208,7 +219,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-133",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -221,7 +232,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-134",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -234,7 +245,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-135",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -247,7 +258,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-136",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -260,7 +271,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-138",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -273,7 +284,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-139",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -286,7 +297,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-140",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -393,7 +404,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

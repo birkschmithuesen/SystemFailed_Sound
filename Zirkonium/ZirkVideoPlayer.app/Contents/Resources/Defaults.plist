@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fill</key>
+	<false/>
+	<key>volume</key>
+	<integer>0</integer>
+	<key>showControls</key>
+	<true/>
+	<key>showTimecode</key>
+	<false/>
+	<key>nativeFullScreen</key>
+	<true/>
+	<key>defaultScreen</key>
+	<integer>0</integer>
+	<key>osc</key>
+	<false/>
+	<key>oscPort</key>
+	<integer>50001</integer>
+	<key>midi</key>
+	<false/>
+	<key>midiVirtual</key>
+	<true/>
+	<key>midiSource</key>
+	<string></string>
+	<key>midiSync</key>
+	<integer>0</integer>
+	<key>midiOffset</key>
+	<integer>0</integer>
+	<key>blankColor</key>
+	<array>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+	</array>
+</dict>
+</plist>

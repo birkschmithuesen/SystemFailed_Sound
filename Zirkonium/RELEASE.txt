@@ -1,0 +1,600 @@
+# Zirkonium3 Release Notes
+
+This is an overview of important info and changes between versions.
+
+3.7.0: 2021 Jun 12
+------------------
+
+### Fixed
+
+* fixed crash due to triple-tap look up gesture handling on buttons & sliders
+* fixed crash due to OSC sender socket creation failure when opening Zirkonium
+  on some systems while WiFi is off (reported by Anton Nikkilä)
+* fixed crash at bounce end when recording OSC (reported by Lise-Lotte Norelius)
+
+* fixed regression where speaker level reporting was causing document edit,
+  this would happen during playback when speaker level reporting is on although
+  no saveable data is changed, issue introduced by 3.6.2 speaker level OSC fix
+
+* fixed HRTF activating for IDs with algorithm set to OSC or None, now correctly
+  handles changing ID algorithm while HRTF is on
+
+* fixed dome view bug where moving curve handle would move anchor point instead
+* fixed dome view cursor flicker on hover during playback
+
+* fixed motion view not allowing min or max vertical values when dragging
+* fixed motion view vertical scale view not always showing current event anchors
+* fixed motion view paths not drawn for new event until mouse interaction
+  (reported by Ben Miller)
+
+* fixed event view thumbnails rendering dark on macOS 11
+* fixed event view shortening event duration when dragging start < 0
+* fixed event view showing resize handles in pen or affine transform mode
+* fixed event view pen mode drag rectangle not staying on mouse click ID track
+* fixed preferences and settings text entries triggering arrow key hotkeys and
+  hogging focus from main window after done editing
+* fixed nudge hotkeys moving event times to < 0 & moving initial event times
+* fixed some time text entries not showing last digit when editing
+* fixed go to beginning not always setting time to 0
+* fixed loop button not using system tint color when enabled
+
+* fixed not using detected string key when loading paths from pre-3.4 projects,
+  which could result in empty paths
+* fixed incorrect range when getting motion path values at phase 1 (end)
+
+### Added
+
+* added support for Apple arm64 with universal build
+* added macOS dark appearance mode support
+
+* added event gain path with dB -100 - +6 range (0 is original gain)
+* added new edit & usability features:
+  - dome view: add a point to nearest curve on existing path with double-click
+  - dome view: double-click on anchor point to expand/contract handles
+  - dome view: double-click on handle to contract to the anchor point
+  - dome view: added right-click Transform Path popover
+  - dome view: transform actions can now be done to multiple selected events
+  - dome view: transform tool resizes with aspect ratio from corner
+  - motion view: added right-click to Add/Edit Point popover
+  - motion view: added right-click to Straighten Path
+  - motion view: double-click on anchor point to straighten next curve
+  - event view: drag select to select multiple events
+  - event view: move, resize, & delete now applied to all selected events
+  - event view: click & drag with mouse wheel or middle button to look around
+
+* added dome view sound path option to draw muted events in gray, this should
+  make it easier to understand why no sound is playing (requested by Ben Miller)
+* added dome view right-click to Close Path, this adds a new end point over the
+  start point if start & end are not already together (requested by Ben Miller) 
+
+* added motion view right-click Snap to Prev for first span or gain point,
+  depending on the current motion view mode
+* motion view now draws dotted gain path in background
+* added motion view span % & gain dB scales
+
+* added event view time and track height zoom hotkeys using cmd+arrows, these
+  mirror the event view slider directions (requested by Sebastian Schottke)
+* added event view opt-click on event to set time to event start
+* added event start/end time order dialog with options to move or swap, this
+  replaces the "Start must be before end" error after manual time entry
+* added event view Escape key handling to cancel current mouse drag action
+* event view ID list header now accepts vertical scroll events
+
+* added OSC ID polar azimuth/elevation position sending option, this should make
+  it easier to control systems like Panoramix, etc (requested by Ben Miller)
+* added OSC ID gain rms & dB sending options (requested by Ben Miller)
+* added OSC ID gain & dB receiving via /gain/rms & /gain/db
+* added OSC ID & Group polar pos recording 
+* Network Preferences:
+  - added Update Senders button for recreating OSC sender sockets
+  - added OSC sender table red highlight for failed senders
+* Project Network Settings:
+  - added ID Span min/max value mapping (mainly for Panoramix)
+  - added address pattern & value mapping presets
+* added info on controlling IRCAM Panoramix tracks with Zirkonium ID OSC output
+* syncing to ZirkPad:
+  - now supports host IPv6 addresses (still prefers IPv4)
+  - will now show an error alert if no OSC sender is found or the detected host
+    address is invalid
+
+* added sources table right-click Show in Finder menu item
+
+### Updated
+
+* minimum OS version now macOS 10.12
+* Pure Data externals now built from source (assisted by Chikashi Miyama)
+* tweaked UI for macOS 11
+
+* updated all UI icons for better readability and high-resolution scaling
+
+* updated JACK support to newer JACK2 lib, replaces old 32-bit JackOSX framework
+  (now use the macOS installer from https://jackaudio.org/downloads)
+
+* ID track mute & solo now saved with project (requested by Sebastian Schottke)
+* ID track mute and solo button handling improved to match expected DAW behavior
+  (requested by Sebastian Schottke), in this case modeled on Apple Logic Pro X:
+  - muted buttons for manually muted tracks draw in blue (as before)
+  - mute buttons for tracks muted by soloed IDs now drawn in teal (light blue)
+  - manually muted tracks stay muted unless the ID solo is enabled
+  - solo muted tracks are unmuted when last ID solo is disabled
+  - manual mute is reapplied when track solo is disabled
+
+* sources table source, gain, & location columns can now resize wider
+* sources table location column now truncates head to show trailing folders
+* updated Group removal dialog so second button is cancel to follow Apple HIG
+
+* transform tool rotation from corner now requires opt/alt (was shift before)
+* add circle or spiral dialog now uses relative circle rotations
+
+* show motion view motion and gain paths for instantaneous events, ie. the sound
+  only has 1 point (reported by Ben Miller)
+* motion view right-click Add/Edit Point popover now uses span % range 0 - 100
+
+* events now clip instead of showing overlap error after editing times in event
+  view table, this matches event view resize behavior (suggested by Ben Miller)
+* event view click to set time now consistent across all editor modes
+
+* smooth inconsistent dB values in UI by rounding to integers
+* time text entries now support simple second values > 60 for 00 or 00.00
+  time string formats, ie. 90 -> 01:30 (requested by Ben Miller)
+
+* default project OSC address patterns changed to match receiver patterns:
+  - /zirk/id/@{id}/position -> /pan/xy
+  - /zirk/id/@{id}/span -> /span
+  - /zirk/time -> /time
+  note: this does not affect existing projects
+* OSC level message addresses changed to better match receiver patterns:
+  - /zirk/level/id -> /level/id
+  - /zirk/level/speaker -> /level/speaker
+  warning: custom software receiving these messages will need to be updated
+* moved ZirkPad sync from Project Settings -> Network tab to Sync tab
+* OSC /solo message now requires an additional float state argument 0 or 1
+* OSC Sender preferences now accepts IPv6 addresses/hostnames (ie. "localhost")
+* network preferences OSC senders table now scrolls & uses wider headers
+
+* replaced stub help menu item with Help -> Zirkonium3 Manual item, this will
+  try to open the included Manual.pdf if it's found next to the .app
+
+### Removed
+
+* removed int argument from OSC transport /start & /stop messages, this should
+  only affect those syncing playback with the old ZirkQTPlayer who should move
+  to ZirkVideoPlayer anyway
+
+### SpeakerSetup 1.3.0
+
+* added support for Apple arm64 with universal build
+
+* minimum OS version now macOS 10.12
+* tweaked UI for macOS 11
+
+### ZirkVideoPlayer 1.1.0
+
+* fixed non-native fullscreen exception on macOS 11
+
+* added support for Apple arm64 with universal build
+
+* minimum OS version now macOS 10.12
+* tweaked UI for macOS 11
+* updated to liblo 0.31
+
+* removed changelog from about window
+
+3.6.2: 2020 Nov 04
+------------------
+
+* fixed regression where dome view was not updated when receiving OSC messages
+  while transport is paused
+* fixed regression where speaker level was not being sent over OSC
+* fixed audio preferences panel output device channels width and hrtf output
+  height
+
+3.6.1: 2020 Oct 28
+------------------
+
+* fixed small gl views on macOS 10.15 by explicitly disabling hi dpi support
+  (reported by Giulia Vismara)
+* fixed event view prospective rect not showing after mouse drag
+* fixed path edit mode buttons not using system tint color
+* fixed inactive dome view context menu items when group event is selected
+
+* added ability to cancel current transform edit by pressing the Escape key
+
+* update event view after making path changes in motion view
+* edit buttons now use rounded rect styling to support tinting
+
+3.6.0: 2020 Jul 07
+------------------
+
+* fixed no playback on devices without audio input (reported by Jakob Schreiber)
+* fixed motion view not redrawing when shift-clicking anchor point to toggle
+  selection
+* fixed bounce not waiting for external MIDI sync or OSC transport start
+  (reported by Lise-Lotte Norelius)
+* fixed UI sluggishness when receiving OSC messages by moving message processing
+  to display link (ie. on every screen refresh)
+
+* added dummy "none" Portaudio input device
+* added event trajectory path smoothing:
+  - Edit -> Dome View -> Smooth Paths option to smooth when adding points
+  - Edit -> Recording -> Smooth Event Paths option to smooth recorded events
+  - Smooth Path & Straighten Path dome view context menu options to apply
+    or remove smoothing from selected anchor points or the entire event path
+
+* recording for IDs or Groups must now be enabled manually, per "track"
+* added ID & Group event view track header record arm buttons, increase track
+  height to see them
+* added event view track header context menu for muting and arming IDs & Groups
+* added Edit -> Record Over Events option to control whether new events replace
+  old events or are discarded when there is an overlap
+* added /record, /mute, /solo, /arm, /group/arm OSC messages
+* added wait for sync bounce option & flashing label while waiting
+
+* improved OSC message handling by performing checks and dispatches only for
+  known messages, only buffering known messages
+* discard OSC messages from record buffer which are for non-armed IDs or Groups
+
+3.5.0: 2019 Dec 19
+------------------
+
+Zirkonium 3.5.0:
+
+* fixed volume slider not controlling HRTF output
+* fixed crash if JACK framework is not available
+* fixed incorrect action for Settings panel reset and init buttons
+* fixed major gl issue where old document would free new document's resources on
+  close and lead to texture and shader corruption
+* fixed dome view sometimes not redrawing after editor mode changes
+* fixed different speaker setup perspectives between MK2 & MK3 XML formats by
+  computing cartesian positions from polar coordinates for both
+* disable ID input on deletion to avoid ghost audio when ID is (re)created
+* fixed snap to next event button snapping to prev event instead
+* fixed spurious OSC time messages when closing a document
+* fixed incorrect OSC /span value range in help text: 0-100, should be 0-1
+* fixed OSC address patterns with single slash being accepted
+* reversed touchpad horizontal scroll direction in dome view
+* fixed Edit menu view order
+* fixed a large number of auto-layout warnings introduced by Xcode 11
+
+* added auto versioning inspired by TouchDesigner for timestamped backups
+  (suggested by Marcus Wrangö)
+* added feature to auto-connect IDs, groups, & events on creation (hold opt/alt)
+* added speaker setup xml export
+* HRTF stereo output channels are now settable in the audio preferences
+  (requested by Marcus Wrangö)
+* nudging left/right now affects currently selected events
+* now ask to delete affected groups if trying to delete master IDs
+* settings panel OSC address pattern text fields now reset to default on clear
+
+* improved transform tool rotation, now hold shift on corner to rotate
+* create path popup improvements:
+  - default to 360 degree rotation
+  - clamp number values without throwing error
+  - convert non-numeric entires to zero silently
+  - deactivate add button enter hotkey when editing
+  - disable add button if rotation is 0
+* clarified difference between speaker Gain and Level draw options in view menu
+* sort speaker setup presets menu alphabetically
+* quad speaker setup output channels updated: FL 1, FR 2, RL 3, RR 4
+* 5.1 speaker setup now ignores LFE channel 4, RL now 5 and RR now 6
+* disable dark mode for now until it can be fully supported
+
+SpeakerSetup 1.2.0:
+
+* added drag and drop onto window or app icon to load
+
+* overall code cleanup and modernization
+* performance improvements
+* improved MK2 file import
+* round export floats to 6 digits and avoid extraneous 0s
+* consolidated error messages and added import/export panel info text
+* improved read errors and error handling, now show any write errors
+* increased min zoom to 12
+
+* removed stub Edit menu
+
+ZirkVideoPlayer 1.0.1:
+
+* fixed timecode minute and hours rounding error (reported by Ben Miller)
+
+* changed default OSC port to 500001 to match default Zirkonium3 send port
+  (reported by Nicolas Castagne)
+* changed default volume to 0 ie. muted (suggested by Nicolas Castagne)
+
+Documentation:
+
+* added general tips and tricks as well as UI clarifications to readme
+* documented speaker setup XML format in readme (requested by Henrik Frisk)
+
+3.4.5: 2019 Aug 02
+------------------
+
+* fixed upside-down event thumbnails
+
+3.4.4: 2019 Jul 25
+------------------
+
+* fixed OSC messages from Max being ignored by relaxing argument type matching
+  to allow for int & float coercion (reported by Alex Kontogeorgakopoulos)
+* fixed crash due to wrong OSC messages entering record buffer
+
+* added OSC argument ranges and record message example
+
+3.4.3: 2019 Jul 10
+------------------
+
+* fixed dome view waveforms not updating when changing selected event or source
+  file (reported by Johannes Dobroschke)
+* fixed motion view ruler not drawing on load
+* fixed time entry ms clipping to 99 instead of 999
+* ignore nudge & jump arrow key bindings when editing text
+
+* added "faster than real time" offline bounce, this helps create glitch-free
+  bounces especially during HRTF rendering (requested by *everyone*)
+* added option to disable live UI updates while bouncing to save further CPU
+
+3.4.2: 2019 Jul 5
+-----------------
+
+* fixed group table ignoring delete key (reported by Kilian Schwoon)
+* fixed bounce output levels not matching live playback (reported by Ben Miller)
+* fixed metric speaker positions clipped to circle edge
+* fixed arrow keys triggering nudge actions while sheet is presented
+
+* added pink noise test source and preferences option (requested by Ben Miller)
+* added preferences and settings tab shortcut buttons
+* added warnings for possibly invalid speaker setup dimensions
+
+* dome view ID playheads now show index number instead of algorithm type
+  and added ID Index dome view menu option (requested by Ben Miller)
+
+3.4.1: 2019 Jun 27
+------------------
+
+Dan Wilcox
+
+* fixed timing bug that sometimes left speakers disabled after
+  loading a speaker setup
+* fixed sourcefile drag and drop failing due to spaces in path
+* fixed piece duration not updating after sound file drag and drop
+* fixed audio settings not being saved after leaving preferences
+* fixed bad JACK input audio if input & output channels are not equal
+* fixed ZirkPad communication
+* fixed OSC messages being dropped after changing receiver port
+
+* load stereo speaker setup as default when creating new project
+* can now add markers after current duration (quick way to set duration)
+* JACK backend now reconnects prev connections on restart
+* changing JACK autoconnect in preferences now connects immediately
+* added MIDI clock sync mode
+
+* dragging initial event position now updates spatialization (frequent request)
+* re-enabled event view zoom and track height sliders during playback
+* filled in pen mode icon to make it easier to see
+* don't stop playback when clicking position on marker view, pause on drag
+* improved gl view refresh timing using display link
+* improved mk1 file import (direct outs, event ids & groups, etc)
+* default window size now 1024x756 so window will fit on 13 inch screens
+* make sure inital events have an anchor point on load
+* keep sourcefiles sorted by name with live input always first
+
+* various UI fixes and improvements
+* improved documentation and OSC message references
+
+3.4.0: 2019 Jun 06
+------------------
+
+Dan Wilcox
+
+* codebase overhaul with emphasis on performance, stability, & usability
+* renamed application from "ZirkoniumTrajectoryEditor" to "Zirkonium3"
+* renamed application identifier to "de.zkm.Zirkonium3" so you will need to
+  manually reset your application preferences 
+* updated project file format and addded support for migrating older projects
+* minimum macOS version requirement is now 10.10
+
+### General
+
+* fixed crash when closing project window while running
+* fixed major memory leaks that kept project around after it's window was closed
+* fixed documents supplied at startup not opening correctly (ie. drag onto .app)
+* fixed basic MK 1 project import (experimental: not everything working)
+* fixed non-ASCII audio file path handling
+
+* added support for changing from the current document to a new document,
+  this replaces file already open error dialog
+
+* updated to libpd 0.12.0 (Pd 0.48-1) and latest stable Portaudio
+* overhauled archiving to allow for choosing archive folder location
+* stop playback before asking about unsaved changes when closing project window
+* updated credits
+
+* removed file name character restrictions (umlauts and UTF-8 should work fine)
+  and now prefer spaces to underscores when generating file names
+* removed deprecated SpatDIF export support
+
+### UI
+
+* fixed time formatter computing ms with 100 instead of 1000
+
+* added background waveform image loading, this drastically improves load
+  times for projects with large sound files
+* added bounce progress indicator
+* added custom About window which shows release notes
+* new time text field format support (mostly suggested by Ben Miller):
+  - format now H:MM:SS.ms with period between S & ms
+  - original long format remains supported: H:MM:SS:ms
+  - handle entering all combinations of H M S ms: S, M:S, S.ms, H:M:S, etc 
+  - clip invalid values, ie. 1000 seconds clipped to 59, etc
+* speakers now monitor if they have an active hardware output channel and dome
+  view draws inactive speakers using a gray background (suggested by Ben Miller)
+
+* main window is now resizeable
+* limit dome, motion, and event view redraw frequency to improve performance
+* waveform drawing now takes into account file sample rate AND document
+  sample rate so path waveforms lengths match sound output and expected timing
+* menu:
+  - added Transport menu with hotkeys for transport buttons
+  - added CMD+G hotkey to toggle dome view grid snapping
+  - added I & O hotkeys for setting loop start and end times
+  - added event view incremental time movement hotkeys:
+    nudge left/right (arrows) & jump left/right (Option + arrows)
+  - added event view catch playhead view option (View->Events->Catch Playhead)
+  - added missing event view draw waveforms option (View->Event View->Waveforms)
+  - show previously-hidden hotkeys: HRTF toggle (Cmd+Shift+H) and
+                                    motion view mode (Cmd+Shift+M)
+* preferences & settings:
+  - added application preferences window, moved application audio settings from
+    per-project audio settings to new audio preferences tab
+  - combined per-project settings sheets into unified project settings window
+  - added preference: test sound gain, server refresh, waveform rendering
+  - added network address, network port, and osc address pattern validation
+* sources table:
+  - added right-click menu with options for changing files and locating missing
+    files in a folder
+* dome view:
+  - added touch pad scroll & zoom pinch support
+  - speaker layer db caption now uses -100 to +12 range
+  - mirrored snap to triangle icon (suggested by Nuno Castro)
+* motion view (below dome view):
+  - edit mode toggle now two separate buttons to show current state
+  - made it obvious that first & last motion path anchor points are not editable
+* event view:
+  - added touch pad scroll & zoom pinch support
+  - scroll wheel & touchpad panning now works
+  - can now be scrolled while playing back
+  - changing time zoom now stays centered on current time (playhead pos)
+  - hide scrollers when not enabled
+  - event view now adds extra space after end time for editing and end time is
+    now drawn as a gray line (suggested by Ben Miller)
+  - clicking on event view now sets playback time when not selecting event
+  - now snaps single dragged events to edge of single overlapped event
+  - now ignores overlap drags and no longers shows error alert 
+* marker view (on top of event view):
+  - marker arrow color now gray
+  - draw time labels for sub ticks when zoomed in
+  - draw marker & time labels with background color to avoid tick overlaps
+  - draw time labels without ms (was always 00 anyway)
+  - clicking on marker view to set time no longer clears selected event
+
+* removed many error alert popups in favor of ignoring less-important actions
+
+### Audio
+
+* fixed jittery loop playback
+* HOA should be working again (if it wasn't before...)
+* disable test sound when closing project
+
+* added JACK audio backend support
+* added selectable audio buffer size for Portaudio backend
+* added source & id gain controls
+* added master output gain (volume) slider to main window:
+ - hover to show current dB value
+ - right-click to reset to 0 dB
+* added stereo panning for HOA mode if there are not enough speakers
+* added server report level noise thresholds to lower amount of UI updates
+* added de-click ramp to server source file playback and speaker on/off
+* added DC hi-pass filter to server output channels
+
+* audio preferences:
+  - set number of input & output channels (clear or set to 0 for max)
+* project audio settings:
+  - choose among max allowed output channels (reported by Ludger Brümmer)
+  - added channel patching reset button
+* now using CoreAudio for reading audio files to generate waveforms and events
+* disable soundfile players when not in use to save CPU, this helps performance
+  for smaller projects without many large soundfiles
+* bouncing with HRTF enabled now creates a single stereo file
+* server report levels now clipped to integer to lower amount of UI updates
+* updated Minidom speaker preset for current setup (Ben Miller)
+* clarified relationship between audio output routing and
+  speaker setup files (Ben Miller)
+
+* removed audio input patching settings (previously never saved or loaded),
+  this improves audio input stability and more easily achieved via modifying the
+  per-ID channels or routing externally from Zikronium
+
+### OSC
+
+* fixed receiver not starting on app start
+* fixed crash when creating sender while there is no network connection
+* fixed unresponsive UI when receiving large amounts of messages
+* changing the osc receive port now works without having to disable the receiver
+* fixed Zirkpad init not using current receiver port (was always 50000)
+
+* added sender address pattern reset button
+
+* default address prefix renamed to "/zirk" from previous "/spatdif"
+* sender level address patterns now /zirk/level/id & /zirk/level/speaker,
+    was previously /show/IDDB & /show/speakerDB
+* sender id address pattern now /zirk/id/@{id}/position & /zirk/id/@{id}/span,
+    was previously /spatdif/source/@{id}/position & /spatdif/source/@{id}/span
+* added ability to leave off @{id} from sender address patterns, this will
+    automatically prepend the id as the first message argument
+* sender span address now saved with project
+
+### MIDI
+
+* fixed broken/jittery MTC sync
+* fixed virtual MIDI port duplication by setting unique reuse id
+
+3.2: 2017 Feb 6
+---------------
+
+Chikashi Miyama
+
+* added record button and recording with mouse for single selected ID
+* added MTC offset settings UI
+* added "Klangdome No Center" as speaker preset
+* added save prompt on document close
+
+* updated MTC start/stop
+* set default event time to current time
+* now sort events after modification
+* spans are now editable
+* updated SpatDIF lib
+
+3.1: 2016 Jul 07
+----------------
+
+Chikashi Miyama
+
+* min deployment target set to macOS 10.9
+
+* added ability to select audio inputs & outputs and save to preferences
+* added bounce to disk (24 bit wav)
+* added ZirkPad and QTPlayer OSC communication
+* aded sound file looping
+* added network settings UI
+* added auto event creation and channel selection
+* added playback start time line to marker view
+* added circle & serial support to group mode
+* added group mirror mode and group event import support
+* added CMD+E edit mode short cut toggle
+* added credits
+
+* updated icon
+* raised channel limit to 64
+* now show all initial positions upon initial event selection
+* replaced libpd implementation with oscpack for main app OSC communication
+* various layout & UI improvements
+* various bugfixes
+
+3.0: 2015 Nov 22
+----------------
+
+Chikashi Miyama
+
+* overall rewrite from Zirkonium MK II:
+  - integrated audio server within trajectory editor using libpd and portaudio
+  - reworked UI with more emphasis on Event timeline
+
+* added server support for 16 live audio inputs
+* added MIDI Time Code transport control
+* added OSC master clock mode
+* added spatDIF file import/export
+* added visualization for VBAP speaker triangulation
+* added HRTF emulation and toggle button
+
+* capped max IDs to 32
+* rendering algorithm now shown in dome view

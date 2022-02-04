@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpeakerSetup Name="Quadraphonic" Dimension="2">
+    <Ring RingIndex="1">
+        <Speaker PositionX="-0.707107" PositionY="0.707107" PositionZ="0.000000" Azimuth="135" Radius="1" LayoutIndex="1" OutputPatch="3"></Speaker>
+        <Speaker PositionX="0.707107" PositionY="0.707107" PositionZ="0.000000" Azimuth="45" Radius="1" LayoutIndex="2" OutputPatch="1"></Speaker>
+        <Speaker PositionX="0.707107" PositionY="-0.707107" PositionZ="0.000000" Azimuth="-45" Radius="1" LayoutIndex="3" OutputPatch="2"></Speaker>
+        <Speaker PositionX="-0.707107" PositionY="-0.707107" PositionZ="0.000000" Azimuth="-135" Radius="1" LayoutIndex="4" OutputPatch="4"></Speaker>
+    </Ring>
+</SpeakerSetup>

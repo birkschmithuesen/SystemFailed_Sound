@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpeakerSetup Name="5.1" Dimension="2">
+    <Ring RingIndex="1">
+        <Speaker PositionX="-0.342018" PositionY="0.93969" PositionZ="0.000000" Azimuth="110.0" Radius="1" LayoutIndex="1" OutputPatch="5"></Speaker>
+        <Speaker PositionX="0.866025" PositionY="0.5" PositionZ="0.000000" Azimuth="30.0" Radius="1" LayoutIndex="2" OutputPatch="1"></Speaker>
+        <Speaker PositionX="1.0" PositionY="0" PositionZ="0.000000" Azimuth="0.0" Radius="1.0" LayoutIndex="3" OutputPatch="3"></Speaker>
+        <Speaker PositionX="0.866025" PositionY="-0.5" PositionZ="0.000000" Azimuth="-30.0" Radius="1" LayoutIndex="4" OutputPatch="2"></Speaker>
+        <Speaker PositionX="-0.342018" PositionY="-0.93969" PositionZ="0.000000" Azimuth="-110.0" Radius="1" LayoutIndex="5" OutputPatch="6"></Speaker>
+    </Ring>
+</SpeakerSetup>
