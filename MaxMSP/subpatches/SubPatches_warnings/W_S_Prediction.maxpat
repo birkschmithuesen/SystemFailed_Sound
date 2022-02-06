@@ -39,6 +39,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 286.5, 205.0, 86.0, 22.0 ],
+					"text" : "s empty_mess"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 143.0, 166.0, 86.0, 22.0 ],
+					"text" : "s empty_mess"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
 					"bgcolor2" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
@@ -360,14 +382,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-140", 0 ],
-					"source" : [ "obj-150", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-140", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -388,7 +403,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-140", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-75", 0 ]
 				}
 

@@ -197,8 +197,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 100.0, 776.0, 22.0 ],
-					"text" : "Achtung: Ei die $1 hat alle Punkte verloren. Bleiben Sie für eine Minute stehen, beobachten Sie wie Sie ihre Geschwindigkeit optimieren können."
+					"patching_rect" : [ 50.0, 100.0, 773.0, 22.0 ],
+					"text" : "Achtung: Ei die $1 hat alle Punkte verloren. Bleiben Sie für eine Minute stehen beobachten Sie wie Sie ihre Geschwindigkeit optimieren können."
 				}
 
 			}

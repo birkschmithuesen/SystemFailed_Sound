@@ -226,13 +226,12 @@
 					"bgfillcolor_type" : "color",
 					"gradient" : 1,
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 143.0, 446.0, 35.0 ],
-					"text" : "haben sich kollektiv organisiert und sich den Regeln widersetzt, daher endet diese Simulation frühzeitig."
+					"patching_rect" : [ 287.0, 143.0, 163.0, 22.0 ],
+					"text" : "Bei NEIN bleiben Sie stehen."
 				}
 
 			}
