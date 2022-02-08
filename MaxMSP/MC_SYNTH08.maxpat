@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1310.0, 777.0 ],
+		"rect" : [ -14.0, -1121.0, 1310.0, 777.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -82,7 +82,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 313.0, -33.0, 114.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "/synth 20 $1 0.4 0.4"
 				}
 
@@ -235,13 +234,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-55",
-					"linecount" : 6,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 926.0, 553.0, 50.0, 89.0 ],
-					"text" : "setvalue 1 0.175172 0.817546"
+					"patching_rect" : [ 926.0, 553.0, 50.0, 49.0 ],
+					"text" : "setvalue 1 0. 0."
 				}
 
 			}
