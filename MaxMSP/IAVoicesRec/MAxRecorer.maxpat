@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 652.0, -1091.0, 738.0, 531.0 ],
+		"rect" : [ -83.0, -1112.0, 738.0, 531.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -230,8 +230,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 143.0, 163.0, 22.0 ],
-					"text" : "Bei NEIN bleiben Sie stehen."
+					"patching_rect" : [ 287.0, 143.0, 385.0, 22.0 ],
+					"text" : "Initialisierung: Die Startressourcen werden den Test Personen zugeteilt"
 				}
 
 			}
