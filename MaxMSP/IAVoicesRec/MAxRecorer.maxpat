@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -83.0, -1112.0, 738.0, 531.0 ],
+		"rect" : [ 312.0, -886.0, 640.0, 520.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -230,8 +230,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 143.0, 385.0, 22.0 ],
-					"text" : "Initialisierung: Die Startressourcen werden den Test Personen zugeteilt"
+					"patching_rect" : [ 218.0, 73.0, 287.0, 22.0 ],
+					"text" : "Fünfte Simulation: Folgen Sie ihren eigenen Regeln."
 				}
 
 			}
