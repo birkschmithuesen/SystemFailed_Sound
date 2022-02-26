@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 312.0, -886.0, 640.0, 520.0 ],
+		"rect" : [ 12.0, -1121.0, 999.0, 520.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,28 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"bgcolor2" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.591933, 0.564554, 0.074619, 1.0 ],
+					"bgfillcolor_color1" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"gradient" : 1,
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 250.0, 134.0, 167.0, 22.0 ],
+					"text" : "vermehren Sie ihre Einheiten."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
 					"bgcolor2" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
@@ -164,8 +186,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 301.5, 29.5, 22.0 ],
-					"text" : "Dis"
+					"patching_rect" : [ 383.0, 260.5, 132.0, 22.0 ],
+					"text" : "verlieren Sie Einheiten."
 				}
 
 			}
@@ -186,8 +208,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.0, 250.5, 29.5, 22.0 ],
-					"text" : "Die"
+					"patching_rect" : [ 321.5, 196.5, 132.0, 22.0 ],
+					"text" : "verlieren Sie Einheiten."
 				}
 
 			}
@@ -208,8 +230,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 205.0, 35.0, 22.0 ],
-					"text" : "reset"
+					"patching_rect" : [ 282.0, 167.0, 320.0, 22.0 ],
+					"text" : "Wenn Sie langsamer oder schneller als die Gruppe gehen,"
 				}
 
 			}
@@ -230,8 +252,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.0, 73.0, 287.0, 22.0 ],
-					"text" : "Fünfte Simulation: Folgen Sie ihren eigenen Regeln."
+					"patching_rect" : [ 218.0, 73.0, 416.0, 22.0 ],
+					"text" : "Zweite Simulation: Wenn Sie sich an die Gruppengeschwindigkeit anpassen,"
 				}
 
 			}
@@ -292,8 +314,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 331.0, 281.0, 29.5, 22.0 ],
-					"text" : "i"
+					"patching_rect" : [ 334.0, 230.0, 320.0, 22.0 ],
+					"text" : "Wenn Sie langsamer oder schneller als die Gruppe gehen,"
 				}
 
 			}
@@ -309,6 +331,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
