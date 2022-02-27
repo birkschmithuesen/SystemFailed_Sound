@@ -49,13 +49,35 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"gradient" : 1,
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 179.5, 14.0, 130.0, 22.0 ],
+					"text" : "In der Regel fängt eine"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"bgcolor2" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.591933, 0.564554, 0.074619, 1.0 ],
+					"bgfillcolor_color1" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"gradient" : 1,
 					"id" : "obj-11",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 250.0, 134.0, 167.0, 22.0 ],
-					"text" : "vermehren Sie ihre Einheiten."
+					"patching_rect" : [ 209.0, 69.0, 194.0, 22.0 ],
+					"text" : "wenn ihr das Gefühl gegeben wird,"
 				}
 
 			}
@@ -98,8 +120,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.0, 451.5, 33.0, 22.0 ],
-					"text" : "zwei"
+					"patching_rect" : [ 491.0, 451.5, 87.0, 22.0 ],
+					"text" : "Hans zwei drei"
 				}
 
 			}
@@ -120,8 +142,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 476.0, 417.5, 29.5, 22.0 ],
-					"text" : "drei"
+					"patching_rect" : [ 476.0, 417.5, 64.0, 22.0 ],
+					"text" : "Masse an,"
 				}
 
 			}
@@ -142,8 +164,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 439.0, 370.5, 29.5, 22.0 ],
-					"text" : "vier"
+					"patching_rect" : [ 408.0, 153.5, 139.0, 22.0 ],
+					"text" : "dass die Masse anfängt,"
 				}
 
 			}
@@ -164,8 +186,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 424.0, 325.5, 29.5, 22.0 ],
-					"text" : "fünf"
+					"patching_rect" : [ 351.5, 179.0, 340.0, 22.0 ],
+					"text" : "sich zu organisieren und gemeinsame Forderungen zu stellen,"
 				}
 
 			}
@@ -208,8 +230,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.5, 196.5, 132.0, 22.0 ],
-					"text" : "verlieren Sie Einheiten."
+					"patching_rect" : [ 283.5, 129.5, 169.0, 22.0 ],
+					"text" : "Außerdem kann es passieren,"
 				}
 
 			}
@@ -230,8 +252,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.0, 167.0, 320.0, 22.0 ],
-					"text" : "Wenn Sie langsamer oder schneller als die Gruppe gehen,"
+					"patching_rect" : [ 220.75, 97.0, 477.0, 22.0 ],
+					"text" : "dass sie von den Verantwortlichen nicht ausreichend informiert oder vernachlässigt wird."
 				}
 
 			}
@@ -252,8 +274,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.0, 73.0, 416.0, 22.0 ],
-					"text" : "Zweite Simulation: Wenn Sie sich an die Gruppengeschwindigkeit anpassen,"
+					"patching_rect" : [ 186.0, 38.0, 143.0, 22.0 ],
+					"text" : "sich kritisch zu verhalten,"
 				}
 
 			}
@@ -314,8 +336,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 334.0, 230.0, 320.0, 22.0 ],
-					"text" : "Wenn Sie langsamer oder schneller als die Gruppe gehen,"
+					"patching_rect" : [ 321.0, 203.0, 239.0, 22.0 ],
+					"text" : "um etwas in der Gesellschaft zu verändern."
 				}
 
 			}
@@ -338,6 +360,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
