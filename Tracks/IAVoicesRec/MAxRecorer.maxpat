@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 12.0, -1121.0, 999.0, 520.0 ],
+		"rect" : [ -92.0, -1121.0, 999.0, 520.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -208,8 +208,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 260.5, 132.0, 22.0 ],
-					"text" : "verlieren Sie Einheiten."
+					"patching_rect" : [ 383.0, 260.5, 67.0, 22.0 ],
+					"text" : "Testperson"
 				}
 
 			}
@@ -230,8 +230,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 283.5, 129.5, 169.0, 22.0 ],
-					"text" : "Außerdem kann es passieren,"
+					"patching_rect" : [ 283.5, 129.5, 387.0, 22.0 ],
+					"text" : "Veränderung des Experiments durch manuelle Eingabe nicht akzeptiert"
 				}
 
 			}
@@ -252,8 +252,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 220.75, 97.0, 477.0, 22.0 ],
-					"text" : "dass sie von den Verantwortlichen nicht ausreichend informiert oder vernachlässigt wird."
+					"patching_rect" : [ 220.75, 97.0, 473.0, 22.0 ],
+					"text" : "Veränderung des Experiments durch manuelle Eingabe von einer Testperson akzeptiert"
 				}
 
 			}
