@@ -76,8 +76,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.0, 69.0, 194.0, 22.0 ],
-					"text" : "wenn ihr das Gefühl gegeben wird,"
+					"patching_rect" : [ 209.0, 69.0, 29.5, 22.0 ],
+					"text" : "Alle"
 				}
 
 			}
@@ -230,8 +230,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 283.5, 129.5, 387.0, 22.0 ],
-					"text" : "Veränderung des Experiments durch manuelle Eingabe nicht akzeptiert"
+					"patching_rect" : [ 283.5, 129.5, 380.0, 22.0 ],
+					"text" : "Alle, die rot angeleuchtet werden, begeben sich bitte in die Wartezone"
 				}
 
 			}
@@ -252,8 +252,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 220.75, 97.0, 473.0, 22.0 ],
-					"text" : "Veränderung des Experiments durch manuelle Eingabe von einer Testperson akzeptiert"
+					"patching_rect" : [ 220.75, 97.0, 51.0, 22.0 ],
+					"text" : "Ei diese"
 				}
 
 			}
