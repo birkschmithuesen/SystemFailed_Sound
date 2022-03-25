@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 302.0, 1367.0, 650.0 ],
+		"rect" : [ 59.0, 163.0, 1367.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,8 +54,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 694.0, 285.0, 313.0, 22.0 ],
-					"text" : "Willkommen: Ei die $1 darf das Spielfeld wieder betreten."
+					"patching_rect" : [ 694.0, 285.0, 360.0, 22.0 ],
+					"text" : "Willkommen: Ei die $1 darf das Experimentierfeld wieder betreten."
 				}
 
 			}
@@ -76,8 +76,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 551.5, 258.5, 221.0, 22.0 ],
-					"text" : "Kritisch: Ei die $1 hat das Off verlassen."
+					"patching_rect" : [ 551.5, 254.5, 260.0, 22.0 ],
+					"text" : "Kritisch: Ei die $1 hat die Wartezone verlassen."
 				}
 
 			}
@@ -98,8 +98,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 455.5, 223.5, 367.0, 22.0 ],
-					"text" : "Ei die $1 gefährtet die Simulation und muss das Spielfeld verlassen"
+					"patching_rect" : [ 455.5, 223.5, 414.0, 22.0 ],
+					"text" : "Ei die $1 gefährtet die Simulation und muss das Experimentierfeld verlassen"
 				}
 
 			}
@@ -164,8 +164,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 120.0, 790.0, 22.0 ],
-					"text" : "Achtung Ei die $1 hat alle Punkte verloren. Bleiben Sie für eine Minute stehen. beobachten Sie wie Sie Ihrer Vorbestimmung besser folgen können."
+					"patching_rect" : [ 36.0, 120.0, 802.0, 22.0 ],
+					"text" : "Achtung Ei die $1 hat alle Einheiten verloren. Bleiben Sie für eine Minute stehen. beobachten Sie wie Sie Ihrer Vorbestimmung besser folgen können."
 				}
 
 			}
@@ -186,8 +186,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 873.0, 322.0, 335.0, 22.0 ],
-					"text" : "Willkommen: Alle Ei dies sollen das Spielfeld wieder betreten."
+					"patching_rect" : [ 873.0, 322.0, 383.0, 22.0 ],
+					"text" : "Willkommen: Alle Ei dies sollen das Experimentierfeld wieder betreten."
 				}
 
 			}
@@ -195,7 +195,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-131",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -208,7 +208,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-133",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -221,7 +221,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-134",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -234,7 +234,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-135",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -247,7 +247,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-136",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -260,7 +260,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-138",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -273,7 +273,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-139",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -286,7 +286,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-140",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -393,9 +393,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

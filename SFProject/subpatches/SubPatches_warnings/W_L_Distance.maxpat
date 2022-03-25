@@ -65,8 +65,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 801.0, 296.0, 337.0, 22.0 ],
-					"text" : "Willkommen: Alle Ei Dies sollen das Spielfeld wieder betreten."
+					"patching_rect" : [ 801.0, 296.0, 385.0, 22.0 ],
+					"text" : "Willkommen: Alle Ei Dies sollen das Experimentierfeld wieder betreten."
 				}
 
 			}
@@ -87,8 +87,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.5, 269.5, 313.0, 22.0 ],
-					"text" : "Willkommen: Ei die $1 darf das Spielfeld wieder betreten."
+					"patching_rect" : [ 658.5, 269.5, 360.0, 22.0 ],
+					"text" : "Willkommen: Ei die $1 darf das Experimentierfeld wieder betreten."
 				}
 
 			}
@@ -109,8 +109,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 562.5, 234.5, 221.0, 22.0 ],
-					"text" : "Kritisch: Ei die $1 hat das Off verlassen."
+					"patching_rect" : [ 562.5, 234.5, 260.0, 22.0 ],
+					"text" : "Kritisch: Ei die $1 hat die Wartezone verlassen."
 				}
 
 			}
@@ -131,8 +131,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.5, 205.0, 367.0, 22.0 ],
-					"text" : "Ei die $1 gefährtet die Simulation und muss das Spielfeld verlassen"
+					"patching_rect" : [ 432.5, 205.0, 414.0, 22.0 ],
+					"text" : "Ei die $1 gefährtet die Simulation und muss das Experimentierfeld verlassen"
 				}
 
 			}
@@ -206,7 +206,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-131",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -219,7 +219,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-133",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -232,7 +232,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-134",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -245,7 +245,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-135",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -258,7 +258,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-136",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -271,7 +271,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-138",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -284,7 +284,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-139",
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -297,7 +297,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-140",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -404,9 +404,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
