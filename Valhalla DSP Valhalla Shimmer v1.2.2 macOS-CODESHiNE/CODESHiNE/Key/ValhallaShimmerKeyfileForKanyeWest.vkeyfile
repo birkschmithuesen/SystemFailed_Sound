@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<publicUserInfo>
+  <VALUE name="Product" val="ValhallaShimmer"/>
+  <VALUE name="FirstName" val="Kanye"/>
+  <VALUE name="LastName" val="West"/>
+  <VALUE name="EmailAddress" val="kanye@west.com"/>
+  <VALUE name="LicenseType" val="FULL"/>
+  <VALUE name="Key" val="699c3cda59144f352bd3d9d5f251d12cb03347f531e6b647b9546033efc63950081cfcbf94c1e0bb4b819592d55416ad583fb820f9371bd359348762129178aa753bafc192e38629719ec0740184224f07575015490befba0ac82f532bfc3edf6b57234833c75110354b24b5e4fb2746c2984d5455f088c0acbaea24f16e5f5f"/>
+  <VALUE name="Key2" val="8392d3a29d7c25268134581f4a3ec770"/>
+</publicUserInfo>

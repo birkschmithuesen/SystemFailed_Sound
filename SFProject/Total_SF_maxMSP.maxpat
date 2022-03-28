@@ -265,7 +265,7 @@
 							"isbase64" : 1,
 							"sliderorder" : [  ],
 							"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-							"blob" : "590.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwaDklaOAAa...............C..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r......RLGZsIGD.HQX0YFdOEQ.1X0PxDBKA...7zTVPwTUGkjSSUDUTkjSGMEHvwVcmklaVUlbyk1at0iHwHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHwHBHvElbg0VYzUlbxziHv3RL4HCLv.CLvHiHf.WXxEVakQWYxMSOh.iK4DSNwjSL4TyMh.BbgIWXsUFckIGM8HBLtTiHf.WXxEVakQWYxUSOh.iHf.WXxEVakQWYxYSOh.iK0LCLx.SLyDiMh.BbgIWXsUFckI2M8HBLtDCLv.CLv.CLwHBHvElbg0VYzUlb3ziHv3xLv.CLv.CLwHiHf.WXxEVakQWYxkSOh.iHf.WXxEVakQWYxECL8HBLh.BbgIWXsUFckIWLwziHvHBH0k1UoQFcn0iH1jCMh.RcogTYocFZz0iHxbSMh7hO...T.f..W..I.jB.w.PN.3C.PAPU.nE.ICfy..M.UKvC........BD..........O...................B.A"
+							"blob" : "590.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwaDklaOAAa...............C..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r......RLGZsIGD.HQX0YFdOEQ.1X0PxDBKA...7zTVPwTUGkjSSUDUTkjSGMEHvwVcmklaVUlbyk1at0iHwHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHwHBHvElbg0VYzUlbxziHv3RL4HCLv.CLvHiHf.WXxEVakQWYxMSOh.iK4DSNwjSL4TyMh.BbgIWXsUFckIGM8HBLtTiHf.WXxEVakQWYxUSOh.iHf.WXxEVakQWYxYSOh.iK0LCLx.SLyDiMh.BbgIWXsUFckI2M8HBLtDCLv.CLv.CLwHBHvElbg0VYzUlb3ziHv3xLv.CLv.CLwHiHf.WXxEVakQWYxkSOh.iHf.WXxEVakQWYxECL8HBLh.BbgIWXsUFckIWLwziHvHBH0k1UoQFcn0iH1jCMh.RcogTYocFZz0iHxbSMh7hO.7GT.f..W..I.jB.w.PN.3C.PAPU.nE.ICfy..M.UKvC........BD..........O...................B.A"
 						}
 ,
 						"snapshotlist" : 						{
@@ -320,7 +320,7 @@
 										"isbase64" : 1,
 										"sliderorder" : [  ],
 										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-										"blob" : "590.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwaDklaOAAa...............C..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r......RLGZsIGD.HQX0YFdOEQ.1X0PxDBKA...7zTVPwTUGkjSSUDUTkjSGMEHvwVcmklaVUlbyk1at0iHwHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHwHBHvElbg0VYzUlbxziHv3RL4HCLv.CLvHiHf.WXxEVakQWYxMSOh.iK4DSNwjSL4TyMh.BbgIWXsUFckIGM8HBLtTiHf.WXxEVakQWYxUSOh.iHf.WXxEVakQWYxYSOh.iK0LCLx.SLyDiMh.BbgIWXsUFckI2M8HBLtDCLv.CLv.CLwHBHvElbg0VYzUlb3ziHv3xLv.CLv.CLwHiHf.WXxEVakQWYxkSOh.iHf.WXxEVakQWYxECL8HBLh.BbgIWXsUFckIWLwziHvHBH0k1UoQFcn0iH1jCMh.RcogTYocFZz0iHxbSMh7hO...T.f..W..I.jB.w.PN.3C.PAPU.nE.ICfy..M.UKvC........BD..........O...................B.A"
+										"blob" : "590.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIwaDklaOAAa...............C..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r......RLGZsIGD.HQX0YFdOEQ.1X0PxDBKA...7zTVPwTUGkjSSUDUTkjSGMEHvwVcmklaVUlbyk1at0iHwHBHvElbg0VYzUlbvziHwHBHvElbg0VYzUlbwziHwHBHvElbg0VYzUlbxziHv3RL4HCLv.CLvHiHf.WXxEVakQWYxMSOh.iK4DSNwjSL4TyMh.BbgIWXsUFckIGM8HBLtTiHf.WXxEVakQWYxUSOh.iHf.WXxEVakQWYxYSOh.iK0LCLx.SLyDiMh.BbgIWXsUFckI2M8HBLtDCLv.CLv.CLwHBHvElbg0VYzUlb3ziHv3xLv.CLv.CLwHiHf.WXxEVakQWYxkSOh.iHf.WXxEVakQWYxECL8HBLh.BbgIWXsUFckIWLwziHvHBH0k1UoQFcn0iH1jCMh.RcogTYocFZz0iHxbSMh7hO.7GT.f..W..I.jB.w.PN.3C.PAPU.nE.ICfy..M.UKvC........BD..........O...................B.A"
 									}
 ,
 									"fileref" : 									{
@@ -6201,7 +6201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 1007.0, 300.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1011.0, 297.0, 29.5, 22.0 ],
 					"text" : "t b i"
 				}
 
@@ -7285,7 +7285,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
-					"midpoints" : [ 1027.0, 323.0, 1027.0, 323.0 ],
+					"midpoints" : [ 1031.0, 323.0, 1027.0, 323.0 ],
 					"source" : [ "obj-21", 1 ]
 				}
 
@@ -7293,7 +7293,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
-					"midpoints" : [ 1016.5, 323.0, 990.0, 323.0, 990.0, 248.0, 1003.5, 248.0 ],
+					"midpoints" : [ 1020.5, 323.0, 990.0, 323.0, 990.0, 248.0, 1003.5, 248.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -7851,7 +7851,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 1055.5, 287.0, 1016.5, 287.0 ],
+					"midpoints" : [ 1055.5, 287.0, 1020.5, 287.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -8291,16 +8291,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pentatonic_list_50.txt",
-				"bootpath" : "~/Nextcloud/Technik/SF-Sound/SFProject",
-				"patcherrelativepath" : ".",
+				"name" : "Pentatonic_list_50.txt",
+				"bootpath" : "~/Nextcloud/Technik/SF-Sound/SFProject/CollLists",
+				"patcherrelativepath" : "./CollLists",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reset_list.txt",
-				"bootpath" : "~/Nextcloud/Technik/SF-Sound/SFProject",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Nextcloud/Technik/SF-Sound/SFProject/CollLists",
+				"patcherrelativepath" : "./CollLists",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -8313,8 +8313,8 @@
 			}
 , 			{
 				"name" : "IDs.txt",
-				"bootpath" : "~/Nextcloud/Technik/SF-Sound/SFProject",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Nextcloud/Technik/SF-Sound/SFProject/CollLists",
+				"patcherrelativepath" : "./CollLists",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -8341,15 +8341,15 @@
 			}
 , 			{
 				"name" : "time_buffers_Long.txt",
-				"bootpath" : "~/Nextcloud/Technik/SF-Sound/SFProject",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Nextcloud/Technik/SF-Sound/SFProject/CollLists",
+				"patcherrelativepath" : "./CollLists",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "time_buffers_Short.txt",
-				"bootpath" : "~/Nextcloud/Technik/SF-Sound/SFProject",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Nextcloud/Technik/SF-Sound/SFProject/CollLists",
+				"patcherrelativepath" : "./CollLists",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
