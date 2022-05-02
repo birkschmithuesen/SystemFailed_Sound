@@ -1,3 +1,5 @@
 *.aif
 *.wav
 .DS_Store
+.DS_Store
+Tracks/.DS_Store

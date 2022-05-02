@@ -13,3 +13,9 @@ It uses the standart voice from OSX: Axxessibility
 
 * System Voice: Petra
 * Speed on 25%
+
+## detailed instructions
+check out the folder "manual"
+
+## missing sound files
+download from here: https://cloud.artesmobiles.art/index.php/f/1941131

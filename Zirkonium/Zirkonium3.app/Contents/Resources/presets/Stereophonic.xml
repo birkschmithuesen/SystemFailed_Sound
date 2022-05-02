@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SpeakerSetup Name="Stereophonic" Dimension="2">
-    <Ring RingIndex="1">
-        <Speaker PositionX="0.866025" PositionY="0.5" PositionZ="0" Azimuth="30" Radius="1" LayoutIndex="1" OutputPatch="1"></Speaker>
-        <Speaker PositionX="0.866025" PositionY="-0.5" PositionZ="0" Azimuth="-30" Radius="1" LayoutIndex="2" OutputPatch="2"></Speaker>
-    </Ring>
-</SpeakerSetup>
