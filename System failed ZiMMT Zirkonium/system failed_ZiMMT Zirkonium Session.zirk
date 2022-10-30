@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>488FD8F1-F438-44DD-B13D-B4252672A113</UUID>
+        <nextObjectID>101</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>1048</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Event</key>
+                        <data>
+		Gg5i4bxgOEZH7fBZr4eztb0XxYERO91hTQ+KmXaaMJY=
+		</data>
+                        <key>Global</key>
+                        <data>
+		2zB3wB6slTZbewn3aXRQTe5okYwVYeQHFSWzCRCzFhk=
+		</data>
+                        <key>ID</key>
+                        <data>
+		K6BqYZEeOYwQJ4bbo63jVH11ncMgcVUmD5HodoFHMKg=
+		</data>
+                        <key>IDGroup</key>
+                        <data>
+		JUFhqs1UXZyIFc7b4aTSfjgp+ZjRKUWOoRHzBEXFCmE=
+		</data>
+                        <key>SourceFile</key>
+                        <data>
+		EiRdIloiRRVgFRYpCUAO7TjTeLfSuxrTEqNEVfl4zy0=
+		</data>
+                        <key>Speaker</key>
+                        <data>
+		y9deGtQBN8v4x7RZdk7jBh+jvNXieHS+AnOpIsgnQCY=
+		</data>
+                        <key>TargetContainer</key>
+                        <data>
+		H5ak6r34Sn3/wv76+DccQnmWTnhTuuaLMbmqBiSTYJI=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesDigest</key>
+                    <string>vWw7q8L7lDw2z3Pyhr8NlfJ9d+Rfu/HzM0BBGsc59Xk4CK8Y6b/UAJ/g27MvhQNErTAZThbXZC88J8BIwj3bvA==</string>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string>1.0</string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+</database>

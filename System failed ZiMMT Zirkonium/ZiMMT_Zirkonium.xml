@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpeakerSetup Version="3.0" Dimension="3" Mode="Metric">
+    <Ring RingIndex="1">
+        <Speaker LayoutIndex="1" OutputPatch="1" PositionX="-2.2961" PositionY="5.54328" PositionZ="0" Azimuth="-22.5" Elevation="0" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="2" OutputPatch="2" PositionX="2.2961" PositionY="5.54328" PositionZ="0" Azimuth="22.5" Elevation="0" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="3" OutputPatch="3" PositionX="5.54328" PositionY="2.2961" PositionZ="0" Azimuth="67.5" Elevation="0" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="4" OutputPatch="4" PositionX="5.54328" PositionY="-2.2961" PositionZ="0" Azimuth="112.5" Elevation="0" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="5" OutputPatch="5" PositionX="2.2961" PositionY="-5.54328" PositionZ="0" Azimuth="157.5" Elevation="0" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="6" OutputPatch="6" PositionX="-2.2961" PositionY="-5.54328" PositionZ="0" Azimuth="-157.5" Elevation="0" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="7" OutputPatch="7" PositionX="-5.54328" PositionY="-2.2961" PositionZ="0" Azimuth="-112.5" Elevation="0" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="8" OutputPatch="8" PositionX="-5.54328" PositionY="2.2961" PositionZ="0" Azimuth="-67.5" Elevation="0" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="9" OutputPatch="9" PositionX="-3.98678" PositionY="3.98678" PositionZ="2.05212" Azimuth="-45" Elevation="20" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="10" OutputPatch="10" PositionX="0" PositionY="5.63816" PositionZ="2.05212" Azimuth="0" Elevation="20" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="11" OutputPatch="11" PositionX="3.98678" PositionY="3.98678" PositionZ="2.05212" Azimuth="45" Elevation="20" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="12" OutputPatch="12" PositionX="5.63816" PositionY="0" PositionZ="2.05212" Azimuth="90" Elevation="20" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="13" OutputPatch="13" PositionX="3.98678" PositionY="-3.98678" PositionZ="2.05212" Azimuth="135" Elevation="20" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="14" OutputPatch="14" PositionX="0" PositionY="-5.63816" PositionZ="2.05212" Azimuth="-180" Elevation="20" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="15" OutputPatch="15" PositionX="-3.98678" PositionY="-3.98678" PositionZ="2.05212" Azimuth="-135" Elevation="20" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="16" OutputPatch="16" PositionX="-5.63816" PositionY="0" PositionZ="2.05212" Azimuth="-90" Elevation="20" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="17" OutputPatch="17" PositionX="-1.75891" PositionY="4.2464" PositionZ="3.85673" Azimuth="-22.5" Elevation="40" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="18" OutputPatch="18" PositionX="1.75891" PositionY="4.2464" PositionZ="3.85673" Azimuth="22.5" Elevation="40" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="19" OutputPatch="19" PositionX="4.2464" PositionY="1.75891" PositionZ="3.85673" Azimuth="67.5" Elevation="40" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="20" OutputPatch="20" PositionX="4.2464" PositionY="-1.75891" PositionZ="3.85673" Azimuth="112.5" Elevation="40" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="21" OutputPatch="21" PositionX="1.75891" PositionY="-4.2464" PositionZ="3.85673" Azimuth="157.5" Elevation="40" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="22" OutputPatch="22" PositionX="-1.75891" PositionY="-4.2464" PositionZ="3.85673" Azimuth="-157.5" Elevation="40" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="23" OutputPatch="23" PositionX="-4.2464" PositionY="-1.75891" PositionZ="3.85673" Azimuth="-112.5" Elevation="40" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="24" OutputPatch="24" PositionX="-4.2464" PositionY="1.75891" PositionZ="3.85673" Azimuth="-67.5" Elevation="40" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="25" OutputPatch="25" PositionX="-1.14805" PositionY="2.77164" PositionZ="5.19615" Azimuth="-22.5" Elevation="60" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="26" OutputPatch="26" PositionX="1.14805" PositionY="2.77164" PositionZ="5.19615" Azimuth="22.5" Elevation="60" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="27" OutputPatch="27" PositionX="3" PositionY="0" PositionZ="5.19615" Azimuth="90" Elevation="60" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="28" OutputPatch="28" PositionX="1.14805" PositionY="-2.77164" PositionZ="5.19615" Azimuth="157.5" Elevation="60" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="29" OutputPatch="29" PositionX="-1.14805" PositionY="-2.77164" PositionZ="5.19615" Azimuth="-157.5" Elevation="60" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="30" OutputPatch="30" PositionX="-3" PositionY="0" PositionZ="5.19615" Azimuth="-90" Elevation="60" Distance="6" DelayCompensation="0"/>
+        <Speaker LayoutIndex="31" OutputPatch="31" PositionX="0" PositionY="0" PositionZ="6" Azimuth="0" Elevation="90" Distance="6" DelayCompensation="0"/>
+    </Ring>
+</SpeakerSetup>
